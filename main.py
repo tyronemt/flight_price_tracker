@@ -6,6 +6,7 @@ import smtplib, ssl
 
 def load_more():
     try:
+        print("Loading more Data")
         button = driver.find_element("xpath", '//div[@class="ULvh-button show-more-button"]')
         button.click()
         print("Waiting for items to load")
@@ -20,7 +21,8 @@ driver.get(kayak_url)
 
 sleep(15)
 
-load_more()
+for i in range(5):
+    load_more()
 flight_rows = driver.find_elements("xpath", '//div[@class="nrc6"]')
 
 prices = []
