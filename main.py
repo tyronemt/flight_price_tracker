@@ -14,14 +14,30 @@ def load_more():
     except:
         pass
 
+def manipulate_data(data):
+    data.sort()
+    sum = 0
+    num = 0
+    for i in data:
+        price = i[0].replace(',', '')
+        price = price.replace('$', '')
+        price = int(price)
+        sum += price
+        num += 1
+    average = sum // num
+    cheapest = data[0][0]
+    city = data[0][1]
+
+    message = "The average price for a ticket is ${average}\nThe cheapest price for a ticket is {cheapest} {city}".format(average = average, cheapest = cheapest, city = city)
+    return message
 driver = webdriver.Firefox()
 sleep(2)
-kayak_url = "https://www.kayak.com/flights/LAX-SGN/2023-08-01/2023-08-31/5adults?sort=bestflight_a"
+kayak_url = "https://www.kayak.com/flights/LAX-SGN/2023-08-01/2023-08-31?sort=bestflight_a"
 driver.get(kayak_url)
 
 sleep(15)
 
-for i in range(5):
+for i in range(10):
     load_more()
 flight_rows = driver.find_elements("xpath", '//div[@class="nrc6"]')
 
@@ -47,13 +63,15 @@ result = []
 
 for i in range(len(prices)):
     result.append((prices[i], company[i]))
-print(result)
 
-message = ""
+m = manipulate_data(result)
+# print(result)
 
+message = "Out of {num} data points,".format(num = len(result)) + m
+
+print(message)
 
 def send_email(message):
-
     port = 465  # For SSL
     smtp_server = "smtp.gmail.com"
     sender_email = "EMAIL"  # Enter your address
