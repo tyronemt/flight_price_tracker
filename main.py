@@ -3,6 +3,22 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 from random import randint
 import smtplib, ssl
+import numpy as np
+import pandas
+
+
+def send_email(message):
+    port = 465  # For SSL
+    smtp_server = "smtp.gmail.com"
+    sender_email = "EMAIL"  # Enter your address
+    receiver_email = "EMAIL"  # Enter receiver address
+    password = "PASSWORD"
+
+    context = ssl.create_default_context()
+    with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
+        server.login(sender_email, password)
+        server.sendmail(sender_email, receiver_email, message)
+    print("Send Email")
 
 def load_more():
     try:
@@ -15,29 +31,41 @@ def load_more():
         pass
 
 def manipulate_data(data):
-    data.sort()
     sum = 0
     num = 0
-    for i in data:
-        price = i[0].replace(',', '')
+    for i in range(len(data)):
+        price = data[i][0].replace(',', '')
         price = price.replace('$', '')
         price = int(price)
+        data[i] = list(data[i])
+        data[i][0] = price
+        data[i] = tuple(data[i])
         sum += price
         num += 1
     average = sum // num
+    data.sort()
     cheapest = data[0][0]
     city = data[0][1]
 
-    message = "The average price for a ticket is ${average}\nThe cheapest price for a ticket is {cheapest} {city}".format(average = average, cheapest = cheapest, city = city)
+    message = "the average price for a ticket is ${average}.\nThe cheapest price for a ticket is ${cheapest} {city}.\n\n".format(average = average, cheapest = cheapest, city = city)
+    message += "Data:  {data}".format(data = data)
     return message
+
+
+airport1 = 'LAX'
+airport2 = 'SGN'
+date1 = '2023-08-01'
+date2 = '2023-08-31'
+
+
 driver = webdriver.Firefox()
 sleep(2)
-kayak_url = "https://www.kayak.com/flights/LAX-SGN/2023-08-01/2023-08-31?sort=bestflight_a"
+kayak_url = "https://www.kayak.com/flights/{airport1}-{airport2}/{date1}/{date2}?sort=bestflight_a".format(airport1 = airport1, airport2 = airport2, date1 = date1, date2 = date2)
 driver.get(kayak_url)
 
 sleep(15)
 
-for i in range(10):
+for i in range(25):
     load_more()
 flight_rows = driver.find_elements("xpath", '//div[@class="nrc6"]')
 
@@ -65,20 +93,10 @@ for i in range(len(prices)):
     result.append((prices[i], company[i]))
 
 m = manipulate_data(result)
-# print(result)
 
-message = "Out of {num} data points,".format(num = len(result)) + m
 
-print(message)
+message = "Out of {num} data points, ".format(num = len(result)) + m
 
-def send_email(message):
-    port = 465  # For SSL
-    smtp_server = "smtp.gmail.com"
-    sender_email = "EMAIL"  # Enter your address
-    receiver_email = "EMAIL"  # Enter receiver address
-    password = "PASSWORD"
+send_email(message)
 
-    context = ssl.create_default_context()
-    with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
-        server.login(sender_email, password)
-        server.sendmail(sender_email, receiver_email, message)
+
