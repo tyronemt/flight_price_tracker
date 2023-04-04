@@ -4,15 +4,15 @@ from bs4 import BeautifulSoup
 from random import randint
 import smtplib, ssl
 import numpy as np
-import pandas
+import pandas as pd
 
 
 def send_email(message):
     port = 465  # For SSL
     smtp_server = "smtp.gmail.com"
-    sender_email = "EMAIL"  # Enter your address
-    receiver_email = "EMAIL"  # Enter receiver address
-    password = "PASSWORD"
+    sender_email = "  # Enter your address
+    receiver_email = ""  # Enter receiver address
+    password = ""
 
     context = ssl.create_default_context()
     with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
@@ -30,25 +30,27 @@ def load_more():
     except:
         pass
 
-def manipulate_data(data):
+def manipulate_data(prices, company):
     sum = 0
     num = 0
-    for i in range(len(data)):
-        price = data[i][0].replace(',', '')
-        price = price.replace('$', '')
-        price = int(price)
-        data[i] = list(data[i])
-        data[i][0] = price
-        data[i] = tuple(data[i])
-        sum += price
-        num += 1
-    average = sum // num
+    for i in range(len(prices)):
+        prices[i] = prices[i].replace(',', '')
+        prices[i] = prices[i].replace('$', '')
+        prices[i] = int(prices[i])
+       
+    average = np.average(prices).round(0).astype(int)
+    data = []
+    for i,j in zip(prices,company):
+        data.append((i,j))
     data.sort()
     cheapest = data[0][0]
     city = data[0][1]
 
     message = "the average price for a ticket is ${average}.\nThe cheapest price for a ticket is ${cheapest} {city}.\n\n".format(average = average, cheapest = cheapest, city = city)
-    message += "Data:  {data}".format(data = data)
+
+    df = pd.DataFrame(data, columns =['Price', 'Airline'])
+
+    message += "Data:\n{data}".format(data = df)
     return message
 
 
@@ -87,15 +89,9 @@ for web_element in flight_rows:
         
     company.append(company_name.text)
 
-result = []
+m = manipulate_data(prices, company)
 
-for i in range(len(prices)):
-    result.append((prices[i], company[i]))
-
-m = manipulate_data(result)
-
-
-message = "Out of {num} data points, ".format(num = len(result)) + m
+message = "Out of {num} data points, ".format(num = len(prices)) + m
 
 send_email(message)
 

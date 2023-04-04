@@ -5337,3 +5337,375 @@ Dynamically enable window occlusion 1
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1680504272307	geckodriver	INFO	Listening on 127.0.0.1:1377
+1680504272822	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1378" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Tyrone\\AppData\\Local\\Temp\\rust_mozprofileDyijhL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680504273467	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680504273473	Marionette	INFO	Listening on port 1384
+Read port: 1384
+WebDriver BiDi listening on ws://127.0.0.1:1378
+1680504273603	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Tyrone\\AppData\\Local\\Temp\\rust_mozprofileDyijhL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1378/devtools/browser/d0d0e02b-7306-4d22-93d9-920ab8ab27f7
+JavaScript warning: https://content.r9cdn.net/res/combined.js?v=1545d43f92a4e138d5cd9a62da94184a9376b2a1-14pre-flipped&cluster=4&tag=common/personalization/saving/react/TripsDrawerWrapper, line 366: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 391 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 7631 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 6074 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680504533025	geckodriver	INFO	Listening on 127.0.0.1:1821
+1680504533533	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1822" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Tyrone\\AppData\\Local\\Temp\\rust_mozprofileYPGrRn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680504533863	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680504533869	Marionette	INFO	Listening on port 1830
+Read port: 1830
+WebDriver BiDi listening on ws://127.0.0.1:1822
+1680504534043	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Tyrone\\AppData\\Local\\Temp\\rust_mozprofileYPGrRn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1822/devtools/browser/8b845815-4656-4674-8a4c-e8340610471c
+JavaScript warning: https://content.r9cdn.net/res/combined.js?v=1545d43f92a4e138d5cd9a62da94184a9376b2a1-14pre-flipped&cluster=4&tag=common/personalization/saving/react/TripsDrawerWrapper, line 366: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 2494 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 6103 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 7447 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 4873 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680543222703	geckodriver	INFO	Listening on 127.0.0.1:1299
+1680543223217	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1300" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Tyrone\\AppData\\Local\\Temp\\rust_mozprofilet1iQdZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680543223654	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680543223659	Marionette	INFO	Listening on port 1305
+Read port: 1305
+WebDriver BiDi listening on ws://127.0.0.1:1300
+1680543223782	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Tyrone\\AppData\\Local\\Temp\\rust_mozprofilet1iQdZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1300/devtools/browser/1da255af-de44-4447-9383-826b6573b949
+JavaScript warning: https://content.r9cdn.net/res/combined.js?v=72227862ea881b44de31572da724aefe20c00816-14pre-flipped&cluster=4&tag=common/personalization/saving/react/TripsDrawerWrapper, line 366: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 6911 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 7331 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 1336 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680543653488	Marionette	INFO	Stopped listening on port 1301680543653959	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2511" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Tyrone\\AppData\\Local\\Temp\\rust_mozprofileRZYOJ1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680543654351	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680543654355	Marionette	INFO	Listening on port 2518
+Read port: 2518
+WebDriver BiDi listening on ws://127.0.0.1:2511
+1680543654487	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Tyrone\\AppData\\Local\\Temp\\rust_mozprofileRZYOJ1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:2511/devtools/browser/748e83f9-5c37-479c-beb1-5e15f7b941cc
+JavaScript warning: https://content.r9cdn.net/res/combined.js?v=72227862ea881b44de31572da724aefe20c00816-14pre-flipped&cluster=4&tag=common/personalization/saving/react/TripsDrawerWrapper, line 366: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 1232 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 2468 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 5368 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 7739 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680543773867	Marionette	INFO	Stopped listening on port 2518
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+rionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680543773215	Marionette	INFO	Listening on port 2874
+Read port: 2874
+WebDriver BiDi listening on ws://127.0.0.1:2867
+1680543773347	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Tyrone\\AppData\\Local\\Temp\\rust_mozprofiledkYnhp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:2867/devtools/browser/36a039a3-b1f0-41da-91df-88e03555c368
+JavaScript warning: https://content.r9cdn.net/res/combined.js?v=72227862ea881b44de31572da724aefe20c00816-14pre-flipped&cluster=4&tag=common/personalization/saving/react/TripsDrawerWrapper, line 366: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 3691 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 335 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 4279 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 4264 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680549654094	geckodriver	INFO	Listening on 127.0.0.1:31131
+1680549654127	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "31132" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Tyrone\\AppData\\Local\\Temp\\rust_mozprofileZX1JF4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680549654543	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680549654548	Marionette	INFO	Listening on port 31137
+Read port: 31137
+WebDriver BiDi listening on ws://127.0.0.1:31132
+1680549654686	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Tyrone\\AppData\\Local\\Temp\\rust_mozprofileZX1JF4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:31132/devtools/browser/bbb6f0ab-c95a-45a4-adc5-804e98e5bd2b
+JavaScript warning: https://content.r9cdn.net/res/combined.js?v=72227862ea881b44de31572da724aefe20c00816-14pre-flipped&cluster=4&tag=common/personalization/saving/react/TripsDrawerWrapper, line 366: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 1395 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 2845 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 7214 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680549784846	Marionette	INFO	Stopped listening on port 31137
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+s: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680549764184	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680549764188	Marionette	INFO	Listening on port 6570
+Read port: 6570
+WebDriver BiDi listening on ws://127.0.0.1:6564
+1680549764295	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Tyrone\\AppData\\Local\\Temp\\rust_mozprofileN0flEn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:6564/devtools/browser/5e84bd45-d158-4c71-9134-7a9a6b1b8f2d
+JavaScript warning: https://content.r9cdn.net/res/combined.js?v=72227862ea881b44de31572da724aefe20c00816-14pre-flipped&cluster=4&tag=common/personalization/saving/react/TripsDrawerWrapper, line 366: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 5891 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 322 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 3848 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 4706 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680549886395	Marionette	INFO	Stopped listening on port 6570
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+arionette	INFO	Listening on port 6831
+Read port: 6831
+WebDriver BiDi listening on ws://127.0.0.1:6823
+1680549808285	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Tyrone\\AppData\\Local\\Temp\\rust_mozprofile3l6jNe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:6823/devtools/browser/24b9890a-af9d-4de8-a171-130066db1c9c
+JavaScript warning: https://content.r9cdn.net/res/combined.js?v=72227862ea881b44de31572da724aefe20c00816-14pre-flipped&cluster=4&tag=common/personalization/saving/react/TripsDrawerWrapper, line 366: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 6352 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 4349 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 5458 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 2728 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680549887350	Marionette	INFO	Stopped listening on port 6831680549887376	mozrunner::runner	INFO	RunniJavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when aconsole.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680549887977	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680549887984	Marionette	INFO	Listening on port 1549
+Read port: 1549
+WebDriver BiDi listening on ws://127.0.0.1:1540
+1680549888221	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Tyrone\\AppData\\Local\\Temp\\rust_mozprofile9gPgfl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1540/devtools/browser/8dc4af00-2c39-4992-8cc2-bda883a2f67c
+JavaScript warning: https://content.r9cdn.net/res/combined.js?v=72227862ea881b44de31572da724aefe20c00816-14pre-flipped&cluster=4&tag=common/personalization/saving/react/TripsDrawerWrapper, line 366: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 2288 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 1045 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 5255 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680559734824	geckodriver	INFO	Listening on 127.0.0.1:1241
+1680559735342	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1242" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Tyrone\\AppData\\Local\\Temp\\rust_mozprofile3XqtUy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680559735815	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680559735820	Marionette	INFO	Listening on port 1249
+Read port: 1249
+WebDriver BiDi listening on ws://127.0.0.1:1242
+1680559735980	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Tyrone\\AppData\\Local\\Temp\\rust_mozprofile3XqtUy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1242/devtools/browser/e465cebb-b597-4f89-b18f-72346a133146
+JavaScript warning: https://content.r9cdn.net/res/combined.js?v=72227862ea881b44de31572da724aefe20c00816-14pre-flipped&cluster=4&tag=common/personalization/saving/react/TripsDrawerWrapper, line 366: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 2585 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 95 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 4415 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 128 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 6904 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 2014 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 6386 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 1695 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 6366 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://s0.2mdn.net/sadbundle/15337561474451607698/index.html?e=69&leftOffset=0&topOffset=0&c=q0uzV1STIB&t=1&renderingType=2&ev=01_247, line 161: TypeError: this.g is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 1755 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 2609 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 2245 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 3434 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 6096 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 1181 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 2316 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 3981 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 6717 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680559906685	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 4895 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680559940740	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 5246 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 7026 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680559973937	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 1879 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680560009299	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 1026 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 5275 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680560036753	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 3816 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680560068327	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 3365 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680560104048	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 5062 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680560137924	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 1928 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680560170978	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 3763 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680560198165	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 4527 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680560228508	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 6162 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680560263019	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wMoe6OciHLqnbxL28zp4y_OVtpvKQBw-ZRrleUvee-M.js line 2 > eval line 2161 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680560299625	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1680560333436	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1680560366504	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1680560395588	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1680560433892	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1680560470327	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1680560506065	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1680560535215	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
